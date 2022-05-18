@@ -57,6 +57,11 @@ img {
     color: var(--third-color);
 }
 
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
 .showcase h1 {
     font-size: 40px;
 }
@@ -127,9 +132,4 @@ Größe wird benötigt damit Element in der Mitte landen kann*/
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.showcase .grid {
-    grid-template-columns: 55% 45%;
-    gap: 30px;
 }
